@@ -2,15 +2,13 @@ using UnityEngine;
 
 public class EnemyDestroyer : MonoBehaviour
 {
-    [SerializeField] private float _destroyDelay = 5f;
-
-    private void Start()
+    private void OnTriggerEnter(Collider collider)
     {
-        Invoke(nameof(DestroyEnemy), _destroyDelay);
+        DestroyEnemy(collider.gameObject);
     }
 
-    private void DestroyEnemy()
+    private void DestroyEnemy(GameObject enemy)
     {
-        Destroy(gameObject);
+        Destroy(enemy);
     }
 }
