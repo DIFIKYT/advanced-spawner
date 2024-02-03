@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class RandomSpawnerActivator : MonoBehaviour
 {
-    [SerializeField] private SpawnerController[] _spawners;
+    [SerializeField] private Spawner[] _spawners;
     [SerializeField] private float _spawnTime = 1.0f;
 
-    private SpawnerController _activeSpawner;
+    private Spawner _activeSpawner;
 
     private void Start()
     {
@@ -20,14 +20,14 @@ public class RandomSpawnerActivator : MonoBehaviour
         ActivateSpawner(_spawners[randomIndex]);
     }
 
-    private void ActivateSpawner(SpawnerController enemySpawner)
+    private void ActivateSpawner(Spawner enemySpawner)
     {
         enemySpawner.EnableSpawner();
         _activeSpawner = enemySpawner;
         enemySpawner.SpawnEnemy();
     }
 
-    private void DisableSpawners(SpawnerController enemySpawner)
+    private void DisableSpawners(Spawner enemySpawner)
     {
         if(enemySpawner == null)
             return;

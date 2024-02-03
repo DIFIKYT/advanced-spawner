@@ -1113,7 +1113,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e16834a42d1c53a4390da844a3d46dbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enemyPrefab: {fileID: 7134626530481552455, guid: 6ce5754d8d911f14aad2d7faefbbac10, type: 3}
+  _enemyPrefab: {fileID: -8866420914179698885, guid: 6ce5754d8d911f14aad2d7faefbbac10, type: 3}
   _waypoints:
   - {fileID: 257634515}
   - {fileID: 1632299107}
@@ -1163,7 +1163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e16834a42d1c53a4390da844a3d46dbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enemyPrefab: {fileID: 7134626530481552455, guid: 77bbce7985846dd41a8fa3f8653a1040, type: 3}
+  _enemyPrefab: {fileID: -8866420914179698885, guid: 77bbce7985846dd41a8fa3f8653a1040, type: 3}
   _waypoints:
   - {fileID: 1081726775}
   - {fileID: 820406357}
@@ -1283,7 +1283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e16834a42d1c53a4390da844a3d46dbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enemyPrefab: {fileID: 7134626530481552455, guid: f7aad544ed897c74f8cbff932ee9f4f2, type: 3}
+  _enemyPrefab: {fileID: -8866420914179698885, guid: f7aad544ed897c74f8cbff932ee9f4f2, type: 3}
   _waypoints:
   - {fileID: 618305193}
   - {fileID: 1926362497}
